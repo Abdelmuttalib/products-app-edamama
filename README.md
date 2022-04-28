@@ -1,0 +1,1 @@
+# edamama test products app
