@@ -3,7 +3,7 @@ const cartModel = require("../models/cartModel");
 const Cart = require("../models/cartModel");
 
 // @desc    Get Cart Items
-// @route   Get /api/cart
+// @route   Get /cart
 // @access  Private
 const getCart = asyncHandler(async (req, res) => {
   const cartItems = await Cart.find();
@@ -11,7 +11,7 @@ const getCart = asyncHandler(async (req, res) => {
 });
 
 // @desc    Set new Cart item
-// @route   POST /api/cart-item
+// @route   POST /cart
 // @access  Private
 const addItemToCart = asyncHandler(async (req, res) => {
   if (!req.body.title || !req.body.description || !req.body.price) {

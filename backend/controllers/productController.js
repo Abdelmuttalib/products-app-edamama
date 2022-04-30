@@ -3,7 +3,7 @@ const productModel = require("../models/productModel");
 const Product = require("../models/productModel");
 
 // @desc    Get products
-// @route   Get /api/products
+// @route   Get /products
 // @access  Private
 const getProducts = asyncHandler(async (req, res) => {
   const products = await Product.find();
@@ -11,7 +11,7 @@ const getProducts = asyncHandler(async (req, res) => {
 });
 
 // @desc    Set products
-// @route   POST /api/products
+// @route   POST /products
 // @access  Private
 const setProducts = asyncHandler(async (req, res) => {
   if (!req.body.text) {
@@ -30,7 +30,7 @@ const setProducts = asyncHandler(async (req, res) => {
 });
 
 // @desc    Delete product
-// @route   DELETE /api/product/:id
+// @route   DELETE /product/:id
 // @access  Private
 const deleteProduct = asyncHandler(async (req, res) => {
   const toDeleteProduct = await Product.findById(req.params.id);
