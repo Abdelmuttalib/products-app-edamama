@@ -1,4 +1,5 @@
 # edamama test products app
+![Screenshot from 2022-05-01 03-44-11](https://user-images.githubusercontent.com/54845047/166120456-ee85d6ff-df9b-4c90-bcaa-318b9824f0e4.png)
 
 ## Simple and Minimal Products app
 ### technologies used: Angular, Tailwindcss, Nodejs, Expressjs, MongoDB
