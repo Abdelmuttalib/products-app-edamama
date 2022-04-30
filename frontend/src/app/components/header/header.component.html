@@ -1,0 +1,19 @@
+<div class="h-16 flex justify-between items-center">
+  <h2 class="font-semibold text-2xl text-gray-900">{{ title }}</h2>
+  <div class="flex gap-3">
+    <button
+      class="px-3 py-1 rounded font-medium h-fit bg-gray-700 text-white text-sm"
+      (click)="onClick()"
+      type="button"
+      style="background-color: {{ showAddProduct ? '#b91c1c' : '#115e59' }}"
+    >
+      {{ showAddProductBtn }}
+    </button>
+    <div>
+      <a [title]="cartLabel" [routerLink]="['cart']">
+        <fa-icon [icon]="filmIcon"></fa-icon>
+        {{ cartItemsCount }}
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="flex gap-3 py-4">
+  <!-- Products -->
+  <div class="rounded-lg w-full">
+    <app-add-product (onAddProduct)="addProduct($event)"></app-add-product>
+    <h2 class="text-4xl text-center my-8">All Products</h2>
+    <div class="flex flex-wrap gap-4 justify-center">
+      <div *ngFor="let product of products">
+        <app-product-item
+          [product]="product"
+          (onDeleteProduct)="deleteProduct(product)"
+        ></app-product-item>
+      </div>
+    </div>
+  </div>
+</div>

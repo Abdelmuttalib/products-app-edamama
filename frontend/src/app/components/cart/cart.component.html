@@ -1,0 +1,8 @@
+<div class="rounded-lg w-full">
+  <h2 class="text-4xl text-center my-8">Cart Items</h2>
+  <div class="flex flex-wrap gap-4 justify-center">
+    <div *ngFor="let cartItem of cartItems">
+      <app-cart-item [cartItem]="cartItem"></app-cart-item>
+    </div>
+  </div>
+</div>

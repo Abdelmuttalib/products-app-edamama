@@ -1,0 +1,51 @@
+<div>
+  <a
+    [title]="product?.title + ' details'"
+    [routerLink]="['/products', product?.id]"
+  >
+    <div
+      class="relative w-[22rem] min-h-[28rem] flex justify-center bg-gray-50 rounded-lg px-6 pt-3 cursor-pointer hover:bg-gray-100 ease-linear duration-200"
+    >
+      <div>
+        <img
+          class="min-w-[14rem] w-auto max-w-[14rem] h-[19rem] object-contain m-auto"
+          src="{{ product?.image }}"
+          alt="product image"
+        />
+        <div class="flex flex-col py-6">
+          <div class="flex justify-between">
+            <div>
+              <p class="font-semibold text-lg">{{ product?.title }}</p>
+            </div>
+          </div>
+          <div class="flex justify-between">
+            <div class="flex flex-col gap-5">
+              <p class="text-sm text-gray-600">{{ product?.description }}</p>
+              <p class="text-lg font-semibold text-emerald-600">
+                ${{ product?.price }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="flex">
+    <button
+      class="w-full h-full self-end text-md whitespace-nowrap px-3 py-3 text-white bg-[#0a3330] bg-opacity-90 hover:bg-opacity-80 focus:bg-opacity-100 rounded rounded-tr-none border border-[#0a3330] rounded-br-none font-semibold"
+      type="button"
+      (click)="onAddToCart(product)"
+    >
+      Add to Cart
+    </button>
+    <button
+      class="w-full h-full self-end text-md whitespace-nowrap px-3 py-3 text-red-600 hover:text-red-500 focus:text-red-700 bg-opacity-90 hover:bg-opacity-80 focus:bg-opacity-100 rounded rounded-tl-none rounded-bl-none font-semibold border border-red-600 hover:border-red-500 focus:border-red-700"
+      type="button"
+      (click)="onAddToCart(product)"
+      (click)="onDelete(product)"
+    >
+      <fa-icon [icon]="xMarkIcon" class="mr-2"></fa-icon>
+      Delete item
+    </button>
+  </div>
+</div>

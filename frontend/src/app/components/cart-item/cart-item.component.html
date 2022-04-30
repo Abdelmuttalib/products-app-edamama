@@ -1,0 +1,28 @@
+<div>
+  <div
+    class="relative w-[22rem] min-h-[28rem] flex justify-center bg-gray-50 rounded-lg px-6 pt-3 cursor-pointer hover:bg-gray-100 ease-linear duration-200"
+  >
+    <div>
+      <img
+        class="min-w-[14rem] w-auto max-w-[14rem] h-[19rem] object-contain m-auto"
+        src="{{ cartItem?.image }}"
+        alt="product image"
+      />
+      <div class="flex flex-col py-6">
+        <div class="flex justify-between">
+          <div>
+            <p class="font-semibold text-lg">{{ cartItem?.title }}</p>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex flex-col gap-5">
+            <p class="text-sm text-gray-600">{{ cartItem?.description }}</p>
+            <p class="text-lg font-semibold text-emerald-600">
+              ${{ cartItem?.price }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
