@@ -8,18 +8,18 @@
       "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
-      "title": "dnfskfjnsdkf",
-      "description": "nfsdkfnksdfn",
-      "price": "jnfsjkdfn",
-      "image": "dnskjdfnskdfn",
+      "title": "New Balance Shoes",
+      "description": "new balance casual shoes",
+      "price": "80.99",
+      "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
       "id": 13
     },
     {
-      "id": 2,
-      "title": "Sun glasses",
-      "description": "casual looking sun glasses",
-      "price": "10.50",
-      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+      "id": 3,
+      "title": "Coffee Roaster",
+      "description": "Battlecreek Coffee Roaster",
+      "price": "5.99",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     }
   ],
   "products": [
@@ -36,13 +36,6 @@
       "description": "casual looking sun glasses",
       "price": "10.50",
       "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": 3,
-      "title": "Coffee Roaster",
-      "description": "Battlecreek Coffee Roaster",
-      "price": "5.99",
-      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
       "id": 4,
@@ -70,7 +63,7 @@
       "title": "Perfume",
       "description": "Red Diamond Perfume",
       "price": "40.99",
-      "imaeg": "https://images.unsplash.com/photo-1608528577891-eb055944f2e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+      "image": "https://images.unsplash.com/photo-1608528577891-eb055944f2e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
       "id": 8,
